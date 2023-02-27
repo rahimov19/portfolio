@@ -3,12 +3,21 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 
 export default function Portfolio() {
   return (
-    <Container className="d-flex flex-column align-items-center porfolioContainer">
+    <Container
+      fluid
+      className="d-flex flex-column align-items-center porfolioContainer"
+    >
       <h1 className="my-4">My Projects</h1>
-      <Row className="mx-auto">
-        <Col xs={4}>
-          <Card style={{ width: "18rem" }} className="cardPortfolio">
-            <Card.Img variant="top" src="http://placekitten.com/800/600" />
+      <Row className="d-flex align-items-between">
+        <Col xs={12} md={6} lg={4} className="cardBoxPortfolio">
+          <Card style={{ width: "25rem" }} className="cardPortfolio">
+            <a href="https://spotify-react-app-umber.vercel.app/">
+              <Card.Img
+                variant="top"
+                src="/projects/spotify.jpg"
+                className="portfolioImage"
+              />
+            </a>
             <Card.Body className="d-flex flex-column justify-content-between">
               <div>
                 <Card.Title>Spotify Clone</Card.Title>
@@ -19,17 +28,30 @@ export default function Portfolio() {
                   function.
                 </Card.Text>
               </div>
-              <a href="https://github.com/rahimov19/Spotify-react-app">
-                <Button className="cardButton" variant="primary">
-                  View on GitHub
-                </Button>
-              </a>
+              <div className="d-flex justify-content-around">
+                <a href="https://github.com/rahimov19/Spotify-react-app">
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a href="https://spotify-react-app-umber.vercel.app/">
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={4}>
-          <Card style={{ width: "18rem" }} className="cardPortfolio">
-            <Card.Img variant="top" src="http://placekitten.com/800/600" />
+        <Col xs={12} md={6} lg={4} className="cardBoxPortfolio">
+          <Card style={{ width: "25rem" }} className="cardPortfolio">
+            <a href="https://epicode-u9-d5-hw.vercel.app/">
+              <Card.Img
+                variant="top"
+                src="/projects/weather.jpg"
+                className="portfolioImage"
+              />{" "}
+            </a>
             <Card.Body className="d-flex flex-column justify-content-between">
               <div>
                 <Card.Title>Weather App</Card.Title>
@@ -39,17 +61,30 @@ export default function Portfolio() {
                   location. Functional search to find locations.
                 </Card.Text>
               </div>
-              <a href="https://github.com/rahimov19/Epicode-u9-d5-hw">
-                <Button className="cardButton" variant="primary">
-                  View on GitHub
-                </Button>
-              </a>
+              <div className="d-flex justify-content-around">
+                <a href="https://github.com/rahimov19/Epicode-u9-d5-hw">
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a href="https://epicode-u9-d5-hw.vercel.app/">
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={4}>
-          <Card style={{ width: "18rem" }} className="cardPortfolio">
-            <Card.Img variant="top" src="http://placekitten.com/800/600" />
+        <Col xs={12} md={6} lg={4} className="cardBoxPortfolio">
+          <Card style={{ width: "25rem" }} className="cardPortfolio">
+            <a href="https://epicode-u9-d3-hw.vercel.app/">
+              <Card.Img
+                variant="top"
+                src="/projects/netflix.jpg"
+                className="portfolioImage"
+              />{" "}
+            </a>
             <Card.Body className="d-flex flex-column justify-content-between">
               <div>
                 <Card.Title>Netflix Clone (Backend)</Card.Title>
@@ -59,17 +94,30 @@ export default function Portfolio() {
                   exporting data in PDF format. Contains Documentations.
                 </Card.Text>
               </div>
-              <a href="https://github.com/rahimov19/epicode-be-w2-d5">
-                <Button className="cardButton" variant="primary">
-                  View on GitHub
-                </Button>
-              </a>
+              <div className="d-flex justify-content-around">
+                <a href="https://github.com/rahimov19/epicode-be-w2-d5">
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a href="https://epicode-u9-d3-hw.vercel.app/">
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={4}>
-          <Card style={{ width: "18rem" }} className="cardPortfolio">
-            <Card.Img variant="top" src="http://placekitten.com/800/600" />
+        <Col xs={12} md={6} lg={4} className="cardBoxPortfolio">
+          <Card style={{ width: "25rem" }} className="cardPortfolio">
+            <a href="https://epicode-u9-d3-hw.vercel.app/">
+              <Card.Img
+                variant="top"
+                src="/projects/netflix.jpg"
+                className="portfolioImage"
+              />{" "}
+            </a>
             <Card.Body className="d-flex flex-column justify-content-between">
               <div>
                 <Card.Title>Netflix Clone (Frontend)</Card.Title>
@@ -78,17 +126,30 @@ export default function Portfolio() {
                   Bootstrap. Connected to Backend.
                 </Card.Text>
               </div>
-              <a href="https://github.com/rahimov19/epicode-u9-d3-hw">
-                <Button className="cardButton" variant="primary">
-                  View on GitHub
-                </Button>
-              </a>
+              <div className="d-flex justify-content-around">
+                <a href="https://github.com/rahimov19/epicode-be-w2-d5">
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a href="https://epicode-u9-d3-hw.vercel.app/">
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={4}>
-          <Card style={{ width: "18rem" }} className="cardPortfolio">
-            <Card.Img variant="top" src="http://placekitten.com/800/600" />
+        <Col xs={12} md={6} lg={4} className="cardBoxPortfolio">
+          <Card style={{ width: "25rem" }} className="cardPortfolio">
+            <a href="https://epicode-be-1-build-week-fe-app.vercel.app/">
+              <Card.Img
+                variant="top"
+                src="/projects/LinkedIn.jpg"
+                className="portfolioImage"
+              />{" "}
+            </a>
             <Card.Body className="d-flex flex-column justify-content-between">
               <div>
                 <Card.Title>LinkedIn Clone (Backend)</Card.Title>
@@ -98,17 +159,30 @@ export default function Portfolio() {
                   exporting data as PDF and CSV files.
                 </Card.Text>
               </div>
-              <a href="https://github.com/rahimov19/EPICODE_BE_1_BUILD_WEEK">
-                <Button className="cardButton" variant="primary">
-                  View on GitHub
-                </Button>
-              </a>
+              <div className="d-flex justify-content-around">
+                <a href="https://github.com/rahimov19/EPICODE_BE_1_BUILD_WEEK">
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a href="https://epicode-be-1-build-week-fe-app.vercel.app/">
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={4}>
-          <Card style={{ width: "18rem" }} className="cardPortfolio">
-            <Card.Img variant="top" src="http://placekitten.com/800/600" />
+        <Col xs={12} md={6} lg={4} className="cardBoxPortfolio">
+          <Card style={{ width: "25rem" }} className="cardPortfolio">
+            <a href="https://epicode-be-1-build-week-fe-app.vercel.app/">
+              <Card.Img
+                variant="top"
+                src="/projects/LinkedIn.jpg"
+                className="portfolioImage"
+              />{" "}
+            </a>
             <Card.Body className="d-flex flex-column justify-content-between">
               <div>
                 <Card.Title>LinkedIn Clone (Frontend)</Card.Title>
@@ -118,11 +192,86 @@ export default function Portfolio() {
                   Redux-persist and encrypted via Transform-Encrypt.
                 </Card.Text>
               </div>
-              <a href="https://github.com/rahimov19/EPICODE_BE_1_BUILD_WEEK-FE-APP">
-                <Button className="cardButton" variant="primary">
-                  View on GitHub
-                </Button>
-              </a>
+              <div className="d-flex justify-content-around">
+                <a href="https://github.com/rahimov19/EPICODE_BE_1_BUILD_WEEK-FE-APP">
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a href="https://epicode-be-1-build-week-fe-app.vercel.app/">
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col xs={12} md={6} lg={4} className="cardBoxPortfolio">
+          <Card style={{ width: "25rem" }} className="cardPortfolio">
+            <a href="https://epicode-build-week-whatsapp-fe.vercel.app/">
+              <Card.Img
+                variant="top"
+                src="/projects/whatsapp.jpg"
+                className="portfolioImage"
+              />{" "}
+            </a>
+            <Card.Body className="d-flex flex-column justify-content-between">
+              <div>
+                <Card.Title>Whatsapp Clone (Frontend)</Card.Title>
+                <Card.Text>
+                  Whatsapp Clone Application. Build with React, Redux, Bootstrap
+                  and socket.io client. All data is saved in Local Storage using
+                  Redux-persist and encrypted via Transform-Encrypt. Socket.io
+                  is listening real-time to backend.
+                </Card.Text>
+              </div>
+              <div className="d-flex justify-content-around">
+                <a href="https://github.com/rahimov19/-EPICODE_BUILD_WEEK_WHATSAPP_FE">
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a href="https://epicode-build-week-whatsapp-fe.vercel.app/">
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col xs={12} md={6} lg={4} className="cardBoxPortfolio">
+          <Card style={{ width: "25rem" }} className="cardPortfolio">
+            <a href="https://epicode-build-week-whatsapp-fe.vercel.app/">
+              <Card.Img
+                variant="top"
+                src="/projects/whatsapp.jpg"
+                className="portfolioImage"
+              />{" "}
+            </a>
+            <Card.Body className="d-flex flex-column justify-content-between">
+              <div>
+                <Card.Title>Whatsapp Clone (Backend)</Card.Title>
+                <Card.Text>
+                  Whatsapp Clone Application (Backend). Build with express.js,
+                  socket.io and mongoose.Is connected to MongoDB database.
+                  Socket.io for sending and recieving real-time packages with
+                  frontend.
+                </Card.Text>
+              </div>
+              <div className="d-flex justify-content-around">
+                <a href="https://github.com/rahimov19/EPICODE_BUILD_WEEK_WHATSAPP_BE">
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a href="https://epicode-build-week-whatsapp-fe.vercel.app/">
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
             </Card.Body>
           </Card>
         </Col>

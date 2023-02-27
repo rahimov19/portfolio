@@ -9,7 +9,7 @@ export default function MainPage() {
     <>
       <Container>
         <Row className="d-flex align-items-center my-5">
-          <Col xs={12} md={{ col: 6 }} className="topPartLeft my-2 ">
+          <Col xs={12} md={6} className="topPartLeft my-2 ">
             <div className="d-flex  flex-column align-items-end pr-5">
               <h5>Hello</h5>
               <h2>I'm Akbar</h2>
@@ -19,7 +19,7 @@ export default function MainPage() {
           </Col>
           <Col
             xs={{ col: 12, order: "first" }}
-            md={6}
+            md={{ col: 6, order: "last" }}
             className="topPartRight "
           >
             <img

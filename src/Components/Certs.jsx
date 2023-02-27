@@ -15,6 +15,9 @@ export default function Certs() {
     { original: "/certs/10.jpg", thumbnail: "/certs/10.jpg" },
     { original: "/certs/11.jpg", thumbnail: "/certs/11.jpg" },
     { original: "/certs/12.jpg", thumbnail: "/certs/12.jpg" },
+    { original: "/certs/13.jpg", thumbnail: "/certs/13.jpg" },
+    { original: "/certs/14.jpg", thumbnail: "/certs/14.jpg" },
+    { original: "/certs/15.jpg", thumbnail: "/certs/15.jpg" },
   ];
   return (
     <Container className="certsContainer">
