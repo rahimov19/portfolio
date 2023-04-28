@@ -9,8 +9,8 @@ export default function MainPage() {
     <>
       <Container>
         <Row className="d-flex align-items-center my-5">
-          <Col xs={12} md={6} className="topPartLeft my-2 ">
-            <div className="d-flex  flex-column align-items-end pr-5">
+          <Col xs={12} sm={6} className="topPartLeft my-2 ">
+            <div className="d-flex  flex-column  topPartLeftDiv">
               <h5>Hello</h5>
               <h2>I'm Akbar</h2>
               <h4>Full Stack Web Developer</h4>
@@ -19,7 +19,7 @@ export default function MainPage() {
           </Col>
           <Col
             xs={{ col: 12, order: "first" }}
-            md={{ col: 6, order: "last" }}
+            sm={{ col: 6, order: "last" }}
             className="topPartRight "
           >
             <img
@@ -37,7 +37,7 @@ export default function MainPage() {
               className="aboutmeImg"
             />
           </Col>
-          <Col xs={12} md={8}>
+          <Col xs={12} md={8} className="aboutMeP">
             <h3>About Me</h3>
             <p>
               As a full-stack web developer, I possess a diverse set of

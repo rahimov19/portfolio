@@ -3,11 +3,11 @@ import { Col, Row } from "react-bootstrap";
 
 export default function ContactMain() {
   return (
-    <div className="contactMain">
+    <Col className="contactMain">
       <h3>Interested? Contact me:</h3>
-      <Row className="d-flex justify-content-between">
+      <Row className="d-flex justify-content-between mt-2">
         <Col
-          xs={1}
+          
           className="d-flex justify-content-center align-items-center"
         >
           <a href="https://www.instagram.com/rahimov19/">
@@ -19,7 +19,7 @@ export default function ContactMain() {
           </a>
         </Col>
         <Col
-          xs={1}
+          
           className="d-flex justify-content-center align-items-center"
         >
           <a href="https://www.linkedin.com/in/rahimov19/">
@@ -31,7 +31,7 @@ export default function ContactMain() {
           </a>
         </Col>
         <Col
-          xs={1}
+          
           className="d-flex justify-content-center align-items-center"
         >
           <a href="https://github.com/rahimov19">
@@ -42,17 +42,17 @@ export default function ContactMain() {
             />
           </a>
         </Col>
-        <Col xs={1}>
+        <Col >
           <a href="mailto:rahimov19.ar@gmail.com">
-            <i class="bi bi-envelope contactLogo"></i>
+            <img src="https://www.svgrepo.com/show/14478/email.svg" alt="mail"  className="contactLogo"/>
           </a>
         </Col>
-        <Col xs={1}>
+        <Col >
           <a href="tel:+4917687899431">
-            <i class="bi bi-telephone contactLogo"></i>
+           <img src="https://www.svgrepo.com/download/111201/phone-call.svg" alt="phone"  className="contactLogo"/>
           </a>
         </Col>
       </Row>
-    </div>
+    </Col>
   );
 }

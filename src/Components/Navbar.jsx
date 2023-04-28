@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export default function Navibar() {
   return (
-    <Navbar bg="light" expand="lg" className="navber">
-      <Navbar.Brand href="#home">
+    <Navbar variant="dark" bg="light" expand="lg" className="navber">
+      <Navbar.Brand href="/">
         {" "}
         <img src="./logoReady.png" alt="" className="logoMain" />
       </Navbar.Brand>
