@@ -190,6 +190,7 @@ export default function Portfolio() {
                   LinkedIn Clone Application. Build with React, Redux and
                   Bootstrap. All data is saved in Local Storage using
                   Redux-persist and encrypted via Transform-Encrypt.
+                  <b>Login: any Pass:any</b>
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
@@ -286,9 +287,14 @@ export default function Portfolio() {
             </a>
             <Card.Body className="d-flex flex-column justify-content-between">
               <div>
-                <Card.Title>Restaurant Management System (Admin Panel)</Card.Title>
+                <Card.Title>
+                  Restaurant Management System (Admin Panel)
+                </Card.Title>
                 <Card.Text>
-                 Restaurant Management System Frontend (Admin Panel) is a project, build with React, Redux (Persist), Bootstrap, SCSS and different libraries and packages. 
+                  Restaurant Management System Frontend (Admin Panel) is a
+                  project, build with React, Redux (Persist), Bootstrap, SCSS
+                  and different libraries and packages.{" "}
+                  <b>Login: akb Pass: akb</b>
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
@@ -317,9 +323,14 @@ export default function Portfolio() {
             </a>
             <Card.Body className="d-flex flex-column justify-content-between">
               <div>
-                <Card.Title>Restaurant Management System (Terminal Panel)</Card.Title>
+                <Card.Title>
+                  Restaurant Management System (Terminal Panel)
+                </Card.Title>
                 <Card.Text>
-                 Restaurant Management System Frontend (Terminal Panel) is a project, build with React, Redux (Persist), Bootstrap, SCSS and different libraries and packages. 
+                  Restaurant Management System Frontend (Terminal Panel) is a
+                  project, build with React, Redux (Persist), Bootstrap, SCSS
+                  and different libraries and packages.
+                  <b>Login: akb Pass: akb Terminal Code: 2211</b>
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
@@ -337,8 +348,43 @@ export default function Portfolio() {
             </Card.Body>
           </Card>
         </Col>
+        <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
+          <Card className="cardPortfolio">
+            <a href="https://epicode-capstone-fe-terminal.vercel.app/">
+              <Card.Img
+                variant="top"
+                src="/projects/art.jpg"
+                className="portfolioImage"
+              />{" "}
+            </a>
+            <Card.Body className="d-flex flex-column justify-content-between">
+              <div>
+                <Card.Title>ART web-site</Card.Title>
+                <Card.Text>
+                  Web page made in React with auth and possibility to create
+                  requests.
+                </Card.Text>
+              </div>
+              <div className="d-flex cardButtons">
+                <a href="https://github.com/rahimov19/https---github.com-rahimov19-art">
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a href="https://https-github-com-rahimov19-art.vercel.app/">
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
-      <p>*Due to limited backend deployment resources, some of projects might not be fully functional.</p>
+      <p>
+        *Due to limited backend deployment resources, some of projects might not
+        be fully functional.
+      </p>
     </Container>
   );
 }
