@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import ReactImageGallery from "react-image-gallery";
 
 export default function Certs() {
@@ -20,18 +20,24 @@ export default function Certs() {
     { original: "/certs/14.jpg", thumbnail: "/certs/14.jpg" },
     { original: "/certs/15.jpg", thumbnail: "/certs/15.jpg" },
     { original: "/certs/17.jpg", thumbnail: "/certs/17.jpg" },
-
   ];
   return (
     <>
-    <Container className="certsContainer">
-      <h1>Certificates</h1>
-      <ReactImageGallery items={images.reverse()} />
-    </Container>
-    <Container className="smallCerts d-none">
-      <h1 className="h1Certs">Certificates</h1>
-     <Row> {images.map((imgSrc) => <Col xs={12} md={6} ><img src={imgSrc.original} alt="cert" className="certImg" /></Col>)}
-     </Row></Container>
+      <Container className="certsContainer">
+        <h1>Certificates</h1>
+        <ReactImageGallery items={images.reverse()} originalWidth={"230px"} />
+      </Container>
+      <Container className="smallCerts d-none">
+        <h1 className="h1Certs">Certificates</h1>
+        <Row>
+          {" "}
+          {images.map((imgSrc) => (
+            <Col xs={12} md={6}>
+              <img src={imgSrc.original} alt="cert" className="certImg" />
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </>
   );
 }

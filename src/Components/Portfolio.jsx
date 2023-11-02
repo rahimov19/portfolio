@@ -11,7 +11,11 @@ export default function Portfolio() {
       <Row className="d-flex align-items-between">
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://spotify-react-app-umber.vercel.app/">
+            <a
+              href="https://spotify-react-app-umber.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/spotify.jpg"
@@ -29,12 +33,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/Spotify-react-app">
+                <a
+                  href="https://github.com/rahimov19/Spotify-react-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://spotify-react-app-umber.vercel.app/">
+                <a
+                  href="https://spotify-react-app-umber.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -45,7 +57,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-u9-d5-hw.vercel.app/">
+            <a
+              href="https://epicode-u9-d5-hw.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/weather.jpg"
@@ -62,12 +78,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/Epicode-u9-d5-hw">
+                <a
+                  href="https://github.com/rahimov19/Epicode-u9-d5-hw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://epicode-u9-d5-hw.vercel.app/">
+                <a
+                  href="https://epicode-u9-d5-hw.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -78,7 +102,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-u9-d3-hw.vercel.app/">
+            <a
+              href="https://epicode-u9-d3-hw.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/netflix.jpg"
@@ -95,12 +123,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/epicode-be-w2-d5">
+                <a
+                  href="https://github.com/rahimov19/epicode-be-w2-d5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://epicode-u9-d3-hw.vercel.app/">
+                <a
+                  href="https://epicode-u9-d3-hw.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -111,7 +147,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-u9-d3-hw.vercel.app/">
+            <a
+              href="https://epicode-u9-d3-hw.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/netflix.jpg"
@@ -127,12 +167,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/epicode-be-w2-d5">
+                <a
+                  href="https://github.com/rahimov19/epicode-be-w2-d5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://epicode-u9-d3-hw.vercel.app/">
+                <a
+                  href="https://epicode-u9-d3-hw.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -143,7 +191,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-be-1-build-week-fe-app.vercel.app/">
+            <a
+              href="https://epicode-be-1-build-week-fe-app.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/LinkedIn.jpg"
@@ -160,12 +212,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/EPICODE_BE_1_BUILD_WEEK">
+                <a
+                  href="https://github.com/rahimov19/EPICODE_BE_1_BUILD_WEEK"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://epicode-be-1-build-week-fe-app.vercel.app/">
+                <a
+                  href="https://epicode-be-1-build-week-fe-app.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -176,7 +236,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-be-1-build-week-fe-app.vercel.app/">
+            <a
+              href="https://epicode-be-1-build-week-fe-app.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/LinkedIn.jpg"
@@ -194,12 +258,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/EPICODE_BE_1_BUILD_WEEK-FE-APP">
+                <a
+                  href="https://github.com/rahimov19/EPICODE_BE_1_BUILD_WEEK-FE-APP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://epicode-be-1-build-week-fe-app.vercel.app/">
+                <a
+                  href="https://epicode-be-1-build-week-fe-app.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -210,7 +282,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-build-week-whatsapp-fe.vercel.app/">
+            <a
+              href="https://epicode-build-week-whatsapp-fe.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/whatsapp.jpg"
@@ -228,12 +304,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/-EPICODE_BUILD_WEEK_WHATSAPP_FE">
+                <a
+                  href="https://github.com/rahimov19/-EPICODE_BUILD_WEEK_WHATSAPP_FE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://epicode-build-week-whatsapp-fe.vercel.app/">
+                <a
+                  href="https://epicode-build-week-whatsapp-fe.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -244,7 +328,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-build-week-whatsapp-fe.vercel.app/">
+            <a
+              href="https://epicode-build-week-whatsapp-fe.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/whatsapp.jpg"
@@ -262,12 +350,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/EPICODE_BUILD_WEEK_WHATSAPP_BE">
+                <a
+                  href="https://github.com/rahimov19/EPICODE_BUILD_WEEK_WHATSAPP_BE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://epicode-build-week-whatsapp-fe.vercel.app/">
+                <a
+                  href="https://epicode-build-week-whatsapp-fe.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -278,7 +374,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-capstone-fe-ten.vercel.app/">
+            <a
+              href="https://epicode-capstone-fe-ten.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/mopadmin.jpg"
@@ -298,12 +398,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/EPICODE_CAPSTONE_FE">
+                <a
+                  href="https://github.com/rahimov19/EPICODE_CAPSTONE_FE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://epicode-capstone-fe-ten.vercel.app/">
+                <a
+                  href="https://epicode-capstone-fe-ten.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -314,7 +422,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-capstone-fe-terminal.vercel.app/">
+            <a
+              href="https://epicode-capstone-fe-terminal.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/mopterminal.jpg"
@@ -334,12 +446,20 @@ export default function Portfolio() {
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/EPICODE_CAPSTONE_FE">
+                <a
+                  href="https://github.com/rahimov19/EPICODE_CAPSTONE_FE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://epicode-capstone-fe-terminal.vercel.app/">
+                <a
+                  href="https://epicode-capstone-fe-terminal.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>
@@ -350,7 +470,11 @@ export default function Portfolio() {
         </Col>
         <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
           <Card className="cardPortfolio">
-            <a href="https://epicode-capstone-fe-terminal.vercel.app/">
+            <a
+              href="https://https-github-com-rahimov19-art-rahimov19.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card.Img
                 variant="top"
                 src="/projects/art.jpg"
@@ -363,15 +487,68 @@ export default function Portfolio() {
                 <Card.Text>
                   Web page made in React with auth and possibility to create
                   requests.
+                  <b>Login: akb Pass: 123</b>
                 </Card.Text>
               </div>
               <div className="d-flex cardButtons">
-                <a href="https://github.com/rahimov19/https---github.com-rahimov19-art">
+                <a
+                  href="https://github.com/rahimov19/https---github.com-rahimov19-art"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="primary">
                     View on GitHub
                   </Button>
                 </a>
-                <a href="https://https-github-com-rahimov19-art.vercel.app/">
+                <a
+                  href="https://https-github-com-rahimov19-art-rahimov19.vercel.app//"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="cardButton" variant="info">
+                    See deployment*
+                  </Button>
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col xs={12} md={6} xl={4} className="cardBoxPortfolio">
+          <Card className="cardPortfolio">
+            <a
+              href="https://languageschoolapp-rahimov19.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Card.Img
+                variant="top"
+                src="/projects/meltingpot.jpg"
+                className="portfolioImage"
+              />{" "}
+            </a>
+            <Card.Body className="d-flex flex-column justify-content-between">
+              <div>
+                <Card.Title>Melting Pot Language School Website</Card.Title>
+                <Card.Text>
+                  Multilangual website made in React, Redux and using Material
+                  UI and SASS.
+                </Card.Text>
+              </div>
+              <div className="d-flex cardButtons">
+                <a
+                  href="https://github.com/rahimov19/languageschoolapp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="cardButton" variant="primary">
+                    View on GitHub
+                  </Button>
+                </a>
+                <a
+                  href="https://languageschoolapp-rahimov19.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="cardButton" variant="info">
                     See deployment*
                   </Button>

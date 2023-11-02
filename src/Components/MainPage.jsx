@@ -10,7 +10,7 @@ export default function MainPage() {
       <Container>
         <Row className="d-flex align-items-center my-5">
           <Col xs={12} sm={6} className="topPartLeft my-2 ">
-            <div className="d-flex  flex-column  topPartLeftDiv">
+            <div className="d-flex  flex-column  topPartLeftDiv fade-in-left">
               <h5>Hello</h5>
               <h2>I'm Akbar</h2>
               <h4>Full Stack Web Developer</h4>
@@ -20,24 +20,32 @@ export default function MainPage() {
           <Col
             xs={{ col: 12, order: "first" }}
             sm={{ col: 6, order: "last" }}
-            className="topPartRight "
+            className="topPartRight fade-in-right"
           >
             <img
               src="/photo_2023-02-04_18-19-46.jpg"
               alt="profileImg"
               className="mePngImg"
             />
+            <span class="top"></span>
+            <span class="right"></span>
+            <span class="bottom"></span>
+            <span class="left"></span>
           </Col>
         </Row>
         <Row className="my-5">
-          <Col xs={12} md={4} className="d-flex justify-content-center">
+          <Col
+            xs={12}
+            md={4}
+            className="d-flex justify-content-center fade-in-left2"
+          >
             <img
               src="/photo_2022-08-10_20-23-19.jpg"
               alt="profileImg"
               className="aboutmeImg"
             />
           </Col>
-          <Col xs={12} md={8} className="aboutMeP">
+          <Col xs={12} md={8} className="aboutMeP fade-in-right2">
             <h3>About Me</h3>
             <p>
               As a full-stack web developer, I possess a diverse set of

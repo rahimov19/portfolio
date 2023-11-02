@@ -8,7 +8,7 @@ export default function Skills() {
 
       <Row className="skillRow2">
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
@@ -36,7 +36,7 @@ export default function Skills() {
           </div>
         </Col>
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
@@ -63,7 +63,7 @@ export default function Skills() {
           </div>
         </Col>
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
@@ -91,7 +91,7 @@ export default function Skills() {
           </div>
         </Col>
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
@@ -117,7 +117,7 @@ export default function Skills() {
           </div>
         </Col>
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
@@ -145,7 +145,7 @@ export default function Skills() {
           </div>
         </Col>
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
@@ -173,7 +173,7 @@ export default function Skills() {
           </div>
         </Col>
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
@@ -201,7 +201,7 @@ export default function Skills() {
           </div>
         </Col>
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
@@ -229,7 +229,7 @@ export default function Skills() {
           </div>
         </Col>
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
@@ -257,7 +257,7 @@ export default function Skills() {
           </div>
         </Col>
         <Col
-          xs={12}
+          xs={6}
           sm={6}
           md={4}
           lg={3}
